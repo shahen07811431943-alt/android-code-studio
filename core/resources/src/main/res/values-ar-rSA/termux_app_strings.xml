@@ -17,96 +17,96 @@
   -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
   <!-- Termux Bootstrap Packages Installation -->
-  <string name="bootstrap_installer_body">Installing bootstrap packages…</string>
-  <string name="bootstrap_error_title">Unable to install bootstrap</string>
-  <string name="bootstrap_error_body">AndroidIDE was unable to install the bootstrap packages.</string>
-  <string name="bootstrap_error_abort">Abort</string>
-  <string name="bootstrap_error_try_again">Try again</string>
-  <string name="bootstrap_error_not_primary_user_message">AndroidIDE can only be run as the primary user.\nBootstrap binaries compiled for AndroidIDE have hardcoded $PREFIX path and cannot be installed under any path other than:\n%1$s.</string>
-  <string name="bootstrap_error_installed_on_portable_sd">AndroidIDE cannot be installed on portable/external/removable sd card on your device.\nBootstrap binaries compiled for AndroidIDE have hardcoded $PREFIX path and cannot be installed under any path other than:\n%1$s.</string>
+  <string name="bootstrap_installer_body">جارٍ تثبيت الحزم الأولية…</string>
+  <string name="bootstrap_error_title">تعذّر تثبيت الحزم الأولية</string>
+  <string name="bootstrap_error_body">لم يتمكن AndroidIDE من تثبيت الحزم الأولية.</string>
+  <string name="bootstrap_error_abort">إلغاء</string>
+  <string name="bootstrap_error_try_again">إعادة المحاولة</string>
+  <string name="bootstrap_error_not_primary_user_message">لا يمكن تشغيل AndroidIDE إلا بحساب المستخدم الأساسي.\nالملفات التنفيذية الأولية المبنية لـ AndroidIDE تحتوي على مسار $PREFIX ثابت ولا يمكن تثبيتها تحت أي مسار آخر غير:\n%1$s.</string>
+  <string name="bootstrap_error_installed_on_portable_sd">لا يمكن تثبيت AndroidIDE على بطاقة SD محمولة/خارجية/قابلة للإزالة في جهازك.\nالملفات التنفيذية الأولية المبنية لـ AndroidIDE تحتوي على مسار $PREFIX ثابت ولا يمكن تثبيتها تحت أي مسار آخر غير:\n%1$s.</string>
   <!-- Terminal Sidebar and Shortcuts -->
-  <string name="action_new_session">New session</string>
-  <string name="action_new_session_failsafe">Failsafe</string>
-  <string name="title_max_terminals_reached">Max terminals reached</string>
-  <string name="msg_max_terminals_reached">Close down existing ones before creating new.</string>
-  <string name="title_rename_session">Set session name</string>
-  <string name="action_rename_session_confirm">Set</string>
-  <string name="title_create_named_session">New named session</string>
-  <string name="action_create_named_session_confirm">Create</string>
-  <string name="action_toggle_soft_keyboard">Keyboard</string>
-  <string name="msg_enabling_terminal_toolbar">Enabling Terminal Toolbar</string>
-  <string name="msg_disabling_terminal_toolbar">Disabling Terminal Toolbar</string>
+  <string name="action_new_session">جلسة جديدة</string>
+  <string name="action_new_session_failsafe">الوضع الآمن</string>
+  <string name="title_max_terminals_reached">تم بلوغ الحد الأقصى للطرفيات</string>
+  <string name="msg_max_terminals_reached">أغلق الطرفيات الحالية قبل إنشاء طرفية جديدة.</string>
+  <string name="title_rename_session">تعيين اسم الجلسة</string>
+  <string name="action_rename_session_confirm">تعيين</string>
+  <string name="title_create_named_session">جلسة جديدة مسمّاة</string>
+  <string name="action_create_named_session_confirm">إنشاء</string>
+  <string name="action_toggle_soft_keyboard">لوحة المفاتيح</string>
+  <string name="msg_enabling_terminal_toolbar">جارٍ تفعيل شريط أدوات الطرفية</string>
+  <string name="msg_disabling_terminal_toolbar">جارٍ تعطيل شريط أدوات الطرفية</string>
   <!-- Terminal Popup -->
-  <string name="action_select_url">Select URL</string>
-  <string name="title_select_url_dialog">Click URL to copy or long press to open</string>
-  <string name="title_select_url_none_found">No URL found in the terminal.</string>
-  <string name="msg_select_url_copied_to_clipboard">URL copied to clipboard</string>
-  <string name="action_share_transcript">Share transcript</string>
-  <string name="title_share_transcript">Terminal transcript</string>
-  <string name="title_share_transcript_with">Send transcript to:</string>
-  <string name="action_share_selected_text">Share selected text</string>
-  <string name="title_share_selected_text">Terminal Text</string>
-  <string name="title_share_selected_text_with">Send selected text to:</string>
-  <string name="action_autofill_password">Autofill password</string>
-  <string name="action_reset_terminal">Reset</string>
-  <string name="msg_terminal_reset">Terminal reset</string>
-  <string name="action_kill_process">Kill process (%d)</string>
-  <string name="title_confirm_kill_process">Really kill this session?</string>
-  <string name="action_toggle_keep_screen_on">Keep screen on</string>
-  <string name="action_open_help">Help</string>
-  <string name="action_open_settings">Settings</string>
-  <string name="action_report_issue">Report Issue</string>
-  <string name="msg_generating_report">Generating Report</string>
-  <string name="msg_add_termux_debug_info">Add termux debug info to report?</string>
+  <string name="action_select_url">تحديد رابط</string>
+  <string name="title_select_url_dialog">اضغط على الرابط لنسخه أو اضغط مطولاً لفتحه</string>
+  <string name="title_select_url_none_found">لم يتم العثور على أي رابط في الطرفية.</string>
+  <string name="msg_select_url_copied_to_clipboard">تم نسخ الرابط إلى الحافظة</string>
+  <string name="action_share_transcript">مشاركة السجل</string>
+  <string name="title_share_transcript">سجل الطرفية</string>
+  <string name="title_share_transcript_with">إرسال السجل إلى:</string>
+  <string name="action_share_selected_text">مشاركة النص المحدد</string>
+  <string name="title_share_selected_text">نص الطرفية</string>
+  <string name="title_share_selected_text_with">إرسال النص المحدد إلى:</string>
+  <string name="action_autofill_password">تعبئة كلمة المرور تلقائياً</string>
+  <string name="action_reset_terminal">إعادة ضبط</string>
+  <string name="msg_terminal_reset">تمت إعادة ضبط الطرفية</string>
+  <string name="action_kill_process">إنهاء العملية (%d)</string>
+  <string name="title_confirm_kill_process">هل تريد فعلاً إنهاء هذه الجلسة؟</string>
+  <string name="action_toggle_keep_screen_on">إبقاء الشاشة قيد التشغيل</string>
+  <string name="action_open_help">المساعدة</string>
+  <string name="action_open_settings">الإعدادات</string>
+  <string name="action_report_issue">الإبلاغ عن مشكلة</string>
+  <string name="msg_generating_report">جارٍ إنشاء التقرير</string>
+  <string name="msg_add_termux_debug_info">إضافة معلومات تصحيح termux إلى التقرير؟</string>
   <!-- Termux Notifications -->
-  <string name="notification_action_wake_lock">Acquire wakelock</string>
-  <string name="notification_action_wake_unlock">Release wakelock</string>
+  <string name="notification_action_wake_lock">تفعيل قفل الاستيقاظ (wakelock)</string>
+  <string name="notification_action_wake_unlock">تحرير قفل الاستيقاظ (wakelock)</string>
   <!-- TermuxService -->
-  <string name="error_display_over_other_apps_permission_not_granted_to_start_terminal">AndroidIDE requires \"Display over other apps\" permission to start terminal sessions from background on Android &gt;= 10. Grants it from Settings -&gt; Apps -&gt; AndroidIDE -&gt; Advanced</string>
+  <string name="error_display_over_other_apps_permission_not_granted_to_start_terminal">يتطلب AndroidIDE إذن \"العرض فوق التطبيقات الأخرى\" لبدء جلسات الطرفية من الخلفية على Android &gt;= 10. امنحه من الإعدادات -&gt; التطبيقات -&gt; AndroidIDE -&gt; متقدم</string>
   <!-- Termux File Receiver -->
-  <string name="title_file_received">Save file in ~/downloads/</string>
-  <string name="action_file_received_edit">Edit</string>
-  <string name="action_file_received_open_directory">Open directory</string>
+  <string name="title_file_received">حفظ الملف في ~/downloads/</string>
+  <string name="action_file_received_edit">تعديل</string>
+  <string name="action_file_received_open_directory">فتح المجلد</string>
   <!-- Miscellaneous -->
-  <string name="error_termux_service_start_failed_general">Failed to start TermuxService. Check logcat for exception message.</string>
-  <string name="error_termux_service_start_failed_bg">Failed to start TermuxService while app is in background due to android bg restrictions.</string>
+  <string name="error_termux_service_start_failed_general">فشل بدء TermuxService. تحقق من logcat لمعرفة رسالة الاستثناء.</string>
+  <string name="error_termux_service_start_failed_bg">فشل بدء TermuxService أثناء وجود التطبيق في الخلفية بسبب قيود الخلفية في Android.</string>
   <!-- Termux App Preferences -->
-  <string name="termux_preferences_summary">Preferences for the Termux terminal.</string>
+  <string name="termux_preferences_summary">تفضيلات طرفية Termux.</string>
   <!-- Debugging Preferences -->
-  <string name="termux_debugging_preferences_title">Debugging</string>
-  <string name="termux_debugging_preferences_summary">Preferences for debugging</string>
+  <string name="termux_debugging_preferences_title">تصحيح الأخطاء</string>
+  <string name="termux_debugging_preferences_summary">تفضيلات تصحيح الأخطاء</string>
   <!-- Logging Category -->
-  <string name="termux_logging_header">Logging</string>
+  <string name="termux_logging_header">التسجيل</string>
   <!-- Log Level -->
-  <string name="termux_log_level_title">Log Level</string>
+  <string name="termux_log_level_title">مستوى السجل</string>
   <!-- Terminal View Key Logging -->
-  <string name="termux_terminal_view_key_logging_enabled_title">Terminal View Key Logging</string>
-  <string name="termux_terminal_view_key_logging_enabled_off">Logs will not have entries for terminal view keys. (Default)</string>
-  <string name="termux_terminal_view_key_logging_enabled_on">Logcat logs will have entries for terminal view keys. These are very verbose and should be disabled under normal circumstances or will cause performance issues.</string>
+  <string name="termux_terminal_view_key_logging_enabled_title">تسجيل مفاتيح عرض الطرفية</string>
+  <string name="termux_terminal_view_key_logging_enabled_off">لن تحتوي السجلات على إدخالات لمفاتيح عرض الطرفية. (الافتراضي)</string>
+  <string name="termux_terminal_view_key_logging_enabled_on">ستحتوي سجلات Logcat على إدخالات لمفاتيح عرض الطرفية. هذه السجلات مطوّلة جداً ويجب تعطيلها في الظروف العادية وإلا ستسبب مشاكل في الأداء.</string>
   <!-- Crash Report Notifications -->
-  <string name="termux_crash_report_notifications_enabled_title">Crash Report Notifications</string>
-  <string name="termux_crash_report_notifications_enabled_off">Disable notifications for crash reports.</string>
-  <string name="termux_crash_report_notifications_enabled_on">Show notifications for crash reports. (Default)</string>
+  <string name="termux_crash_report_notifications_enabled_title">إشعارات تقارير الأعطال</string>
+  <string name="termux_crash_report_notifications_enabled_off">تعطيل إشعارات تقارير الأعطال.</string>
+  <string name="termux_crash_report_notifications_enabled_on">إظهار إشعارات تقارير الأعطال. (الافتراضي)</string>
   <!-- Terminal IO Preferences -->
-  <string name="termux_terminal_io_preferences_title">Terminal I/O</string>
-  <string name="termux_terminal_io_preferences_summary">Preferences for terminal I/O</string>
+  <string name="termux_terminal_io_preferences_title">إدخال/إخراج الطرفية</string>
+  <string name="termux_terminal_io_preferences_summary">تفضيلات إدخال/إخراج الطرفية</string>
   <!-- Keyboard Category -->
-  <string name="termux_keyboard_header">Keyboard</string>
+  <string name="termux_keyboard_header">لوحة المفاتيح</string>
   <!-- Soft Keyboard -->
-  <string name="termux_soft_keyboard_enabled_title">Soft Keyboard Enabled</string>
-  <string name="termux_soft_keyboard_enabled_off">Soft keyboard will be disabled.</string>
-  <string name="termux_soft_keyboard_enabled_on">Soft keyboard will be enabled. (Default)</string>
+  <string name="termux_soft_keyboard_enabled_title">تفعيل لوحة المفاتيح الافتراضية</string>
+  <string name="termux_soft_keyboard_enabled_off">سيتم تعطيل لوحة المفاتيح الافتراضية.</string>
+  <string name="termux_soft_keyboard_enabled_on">سيتم تفعيل لوحة المفاتيح الافتراضية. (الافتراضي)</string>
   <!-- Soft Keyboard Only If No Hardware-->
-  <string name="termux_soft_keyboard_enabled_only_if_no_hardware_title">Soft Keyboard Only If No Hardware</string>
-  <string name="termux_soft_keyboard_enabled_only_if_no_hardware_off">Soft keyboard will be enabled even if hardware keyboard is connected. (Default)</string>
-  <string name="termux_soft_keyboard_enabled_only_if_no_hardware_on">Soft keyboard will be enabled only if no hardware keyboard is connected.</string>
+  <string name="termux_soft_keyboard_enabled_only_if_no_hardware_title">لوحة المفاتيح الافتراضية فقط عند غياب الفعلية</string>
+  <string name="termux_soft_keyboard_enabled_only_if_no_hardware_off">ستُفعَّل لوحة المفاتيح الافتراضية حتى مع توصيل لوحة مفاتيح فعلية. (الافتراضي)</string>
+  <string name="termux_soft_keyboard_enabled_only_if_no_hardware_on">ستُفعَّل لوحة المفاتيح الافتراضية فقط إذا لم تكن هناك لوحة مفاتيح فعلية متصلة.</string>
   <!-- Terminal View Preferences -->
-  <string name="termux_terminal_view_preferences_title">Terminal View</string>
-  <string name="termux_terminal_view_preferences_summary">Preferences for terminal view</string>
+  <string name="termux_terminal_view_preferences_title">عرض الطرفية</string>
+  <string name="termux_terminal_view_preferences_summary">تفضيلات عرض الطرفية</string>
   <!-- View Category -->
-  <string name="termux_terminal_view_view_header">View</string>
+  <string name="termux_terminal_view_view_header">العرض</string>
   <!-- Terminal View Margin Adjustment -->
-  <string name="termux_terminal_view_terminal_margin_adjustment_title">Terminal Margin Adjustment</string>
-  <string name="termux_terminal_view_terminal_margin_adjustment_off">Terminal margin adjustment will be disabled.</string>
-  <string name="termux_terminal_view_terminal_margin_adjustment_on">Terminal margin adjustment will be enabled. It should be enabled to try to fix the issue where soft keyboard covers part of extra keys/terminal view. If it causes screen flickering on your devices, then disable it. (Default)</string>
+  <string name="termux_terminal_view_terminal_margin_adjustment_title">ضبط هامش الطرفية</string>
+  <string name="termux_terminal_view_terminal_margin_adjustment_off">سيتم تعطيل ضبط هامش الطرفية.</string>
+  <string name="termux_terminal_view_terminal_margin_adjustment_on">سيتم تفعيل ضبط هامش الطرفية. يجب تفعيله لمحاولة إصلاح مشكلة تغطية لوحة المفاتيح الافتراضية لجزء من المفاتيح الإضافية/عرض الطرفية. إذا تسبب في وميض الشاشة على جهازك فعطّله. (الافتراضي)</string>
 </resources>

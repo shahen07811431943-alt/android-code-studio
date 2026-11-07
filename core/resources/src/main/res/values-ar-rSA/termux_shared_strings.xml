@@ -16,67 +16,67 @@
   ~   along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
   -->
 <resources>
-  <string name="msg_directory_absolute_path">%1$s Directory Absolute Path: \"%2$s\"</string>
+  <string name="msg_directory_absolute_path">المسار المطلق لمجلد %1$s: \"%2$s\"</string>
   <!-- PackageUtils -->
-  <string name="error_app_not_installed_or_disabled_warning">The %1$s (%2$s) app is not installed or is disabled.</string>
-  <string name="error_get_package_context_failed_title">Failed To Get Package Context</string>
-  <string name="error_get_package_context_failed_message">Failed to get package context for the \"%1$s\" package. This may be because the app package is not installed or it has different APK signature from the current app.</string>
-  <string name="error_get_package_context_failed_help_url_message">Check %1$s for more details.</string>
-  <string name="error_get_component_state_failed">Failed to get %1$s/%2$s component state</string>
-  <string name="error_enable_component_failed">Failed to enable %1$s/%2$s component</string>
-  <string name="error_disable_component_failed">Failed to disable %1$s/%2$s component</string>
+  <string name="error_app_not_installed_or_disabled_warning">التطبيق %1$s (%2$s) غير مثبّت أو معطّل.</string>
+  <string name="error_get_package_context_failed_title">فشل الحصول على سياق الحزمة</string>
+  <string name="error_get_package_context_failed_message">فشل الحصول على سياق الحزمة \"%1$s\". قد يكون السبب أن حزمة التطبيق غير مثبّتة أو أن توقيع APK الخاص بها مختلف عن توقيع التطبيق الحالي.</string>
+  <string name="error_get_package_context_failed_help_url_message">راجع %1$s لمزيد من التفاصيل.</string>
+  <string name="error_get_component_state_failed">فشل الحصول على حالة المكوّن %1$s/%2$s</string>
+  <string name="error_enable_component_failed">فشل تفعيل المكوّن %1$s/%2$s</string>
+  <string name="error_disable_component_failed">فشل تعطيل المكوّن %1$s/%2$s</string>
   <!-- PermissionUtils -->
-  <string name="error_failed_to_request_permissions">Failed to request permissions with request code %1$d: %2$s</string>
-  <string name="error_attempted_to_ask_for_permissions_not_requested">Attempted to ask for permissions that have not been requested in app manifest: %1$s</string>
-  <string name="error_has_not_requested_legacy_external_storage">The \"%1$s\" package is targeting targetSdkVersion %2$d and is running on android sdk %3$d but has not set requestLegacyExternalStorage to true in app manifest</string>
-  <string name="msg_requires_dump_and_package_usage_stats_permissions">Requires `DUMP` and `PACKAGE_USAGE_STATS` permission</string>
-  <string name="error_display_over_other_apps_permission_not_granted">%1$s requires
-        \"Display over other apps\" permission to start activities and services from background on Android &gt;= 10.
-        Grants it from Android Settings -&gt; Apps -&gt; %1$s -&gt; Advanced -&gt; Draw over other apps.
-        The permission name may be different on different devices, like on Xiaomi, its called
-        \"Display pop-up windows while running in the background\", check https://dontkillmyapp.com
-        for device specific issues.</string>
+  <string name="error_failed_to_request_permissions">فشل طلب الأذونات برمز الطلب %1$d: %2$s</string>
+  <string name="error_attempted_to_ask_for_permissions_not_requested">تمت محاولة طلب أذونات غير مصرّح بها في ملف manifest للتطبيق: %1$s</string>
+  <string name="error_has_not_requested_legacy_external_storage">الحزمة \"%1$s\" تستهدف targetSdkVersion %2$d وتعمل على android sdk %3$d لكنها لم تضبط requestLegacyExternalStorage على true في ملف manifest للتطبيق</string>
+  <string name="msg_requires_dump_and_package_usage_stats_permissions">يتطلب إذني `DUMP` و`PACKAGE_USAGE_STATS`</string>
+  <string name="error_display_over_other_apps_permission_not_granted">يتطلب %1$s
+        إذن \"العرض فوق التطبيقات الأخرى\" لبدء الأنشطة والخدمات من الخلفية على Android &gt;= 10.
+        امنحه من إعدادات Android -&gt; التطبيقات -&gt; %1$s -&gt; متقدم -&gt; الرسم فوق التطبيقات الأخرى.
+        قد يختلف اسم الإذن بين الأجهزة، ففي Xiaomi مثلاً يسمى
+        \"عرض النوافذ المنبثقة أثناء التشغيل في الخلفية\"، راجع https://dontkillmyapp.com
+        للاطلاع على المشاكل الخاصة بكل جهاز.</string>
   <!-- TermuxPluginUtils -->
-  <string name="error_allow_external_apps_ungranted">%1$s requires `allow-external-apps` property to be set to `true` in `%2$s` file.</string>
+  <string name="error_allow_external_apps_ungranted">يتطلب %1$s ضبط الخاصية `allow-external-apps` على `true` في الملف `%2$s`.</string>
   <!-- ReportActivity -->
-  <string name="title_report_text">Report Text</string>
-  <string name="msg_report_truncated">**Report Truncated**\n\nReport is too large to view here. Use `Save To File` option from options menu (3-dots on top right) and view it in an external text editor app.\n\n##\n\n</string>
+  <string name="title_report_text">نص التقرير</string>
+  <string name="msg_report_truncated">**تم اقتطاع التقرير**\n\nالتقرير كبير جداً لعرضه هنا. استخدم خيار `حفظ في ملف` من قائمة الخيارات (النقاط الثلاث أعلى اليمين) واعرضه في تطبيق محرر نصوص خارجي.\n\n##\n\n</string>
   <!-- ShareUtils -->
-  <string name="title_share_with">Share With</string>
-  <string name="title_open_url_with">Open URL With</string>
-  <string name="msg_storage_permission_not_granted">The storage permission not granted.</string>
-  <string name="msg_file_saved_successfully">The %1$s file saved successfully at \"%2$s\"</string>
+  <string name="title_share_with">المشاركة عبر</string>
+  <string name="title_open_url_with">فتح الرابط عبر</string>
+  <string name="msg_storage_permission_not_granted">لم يتم منح إذن التخزين.</string>
+  <string name="msg_file_saved_successfully">تم حفظ الملف %1$s بنجاح في \"%2$s\"</string>
   <!-- Shell -->
   <!-- TermuxUtils -->
-  <string name="msg_report_issue">        If you want to report this issue, then copy its text from the options menu (3-dots on top right) and post
-        an issue on one of the following links.
-        \n\nIf you are posting a Termux app crash report, then please provide details on what you were doing that
-        caused the crash and how to reproduce it, if possible.
-        \n\nIf you are posting an issue on GitHub, then post it in the repository at which the report belongs at.
-        Issues opened or emails sent with **(partial) screenshots** instead of copied text or a file of this report
-        **will likely be automatically closed/deleted**. You may optionally remove any device specific info that
-        you consider private or don\'t want to share or that is not relevant to the issue.
-        \n\nWe do not provide support for any hacking related tools/scripts. Any questions asked about them over email,
-        on GitHub or other official termux community forums **will likely be automatically closed/deleted** and may
-        even result in **temporary or permanent** ban. Check %1$s/wiki/Hacking for details.</string>
-  <string name="msg_termux_app_required_by_app">The AndroidIDE is required by the %1$s app to run termux commands.</string>
-  <string name="error_termux_app_package_context_not_accessible">The AndroidIDE app (package context) is not accessible.</string>
-  <string name="error_termux_prefix_dir_path_not_accessible">The AndroidIDE app $PREFIX directory is not accessible by the %1$s app.
-        This may be because you have not installed or setup AndroidIDE app or
-    AndroidIDE app and %1$s app both have different APK signatures because you have managed to install both apps from different sources.
-        It may also be because AndroidIDE $PREFIX directory \"/data/data/com.tom.rv2ide/files/usr\" does not exist or does not have read,
-        write and execute permissions.</string>
+  <string name="msg_report_issue">        إذا أردت الإبلاغ عن هذه المشكلة، فانسخ نصها من قائمة الخيارات (النقاط الثلاث أعلى اليمين) وانشر
+        مشكلة على أحد الروابط التالية.
+        \n\nإذا كنت تنشر تقرير انهيار لتطبيق Termux، فيرجى تقديم تفاصيل عمّا كنت تفعله
+        وقت حدوث الانهيار وكيفية إعادة إنتاجه إن أمكن.
+        \n\nإذا كنت تنشر مشكلة على GitHub، فانشرها في المستودع الذي يتبع له هذا التقرير.
+        المشاكل المفتوحة أو الرسائل المرسلة بـ **(لقطات شاشة جزئية)** بدلاً من النص المنسوخ أو ملف هذا التقرير
+        **سيتم على الأرجح إغلاقها/حذفها تلقائياً**. يمكنك اختيارياً إزالة أي معلومات خاصة بالجهاز
+        تعتبرها خاصة أو لا تريد مشاركتها أو لا علاقة لها بالمشكلة.
+        \n\nنحن لا نقدم دعماً لأي أدوات/سكربتات متعلقة بالاختراق. أي أسئلة بشأنها عبر البريد الإلكتروني
+        أو على GitHub أو منتديات مجتمع termux الرسمية الأخرى **سيتم على الأرجح إغلاقها/حذفها تلقائياً** وقد
+        تؤدي إلى حظر **مؤقت أو دائم**. راجع %1$s/wiki/Hacking لمزيد من التفاصيل.</string>
+  <string name="msg_termux_app_required_by_app">يتطلب التطبيق %1$s وجود AndroidIDE لتشغيل أوامر termux.</string>
+  <string name="error_termux_app_package_context_not_accessible">لا يمكن الوصول إلى تطبيق AndroidIDE (سياق الحزمة).</string>
+  <string name="error_termux_prefix_dir_path_not_accessible">لا يمكن للتطبيق %1$s الوصول إلى مجلد $PREFIX الخاص بتطبيق AndroidIDE.
+        قد يكون السبب أنك لم تثبّت أو تُعِدّ تطبيق AndroidIDE، أو
+    أن لتطبيق AndroidIDE وتطبيق %1$s توقيعي APK مختلفين لأنك ثبّتت التطبيقين من مصدرين مختلفين.
+        وقد يكون السبب أيضاً أن مجلد AndroidIDE $PREFIX \"/data/data/com.tom.rv2ide/files/usr\" غير موجود أو لا يملك صلاحيات القراءة،
+        والكتابة والتنفيذ.</string>
   <!-- Miscellaneous -->
-  <string name="action_share">Share</string>
-  <string name="action_save_to_file">Save To File</string>
-  <string name="msg_storage_permission_granted_on_request">The storage permission granted by user on request</string>
-  <string name="msg_storage_permission_not_granted_on_request">The storage permission not granted by user on request</string>
+  <string name="action_share">مشاركة</string>
+  <string name="action_save_to_file">حفظ في ملف</string>
+  <string name="msg_storage_permission_granted_on_request">منح المستخدم إذن التخزين عند الطلب</string>
+  <string name="msg_storage_permission_not_granted_on_request">لم يمنح المستخدم إذن التخزين عند الطلب</string>
   <!-- Log Level -->
-  <string name="log_level_title">Log Level</string>
-  <string name="log_level_off">Off</string>
-  <string name="log_level_normal">Normal</string>
-  <string name="log_level_debug">Debug</string>
-  <string name="log_level_verbose">Verbose</string>
-  <string name="log_level_unknown">*Unknown*</string>
-  <string name="log_level_value">Logcat log level set to \"%1$s\"</string>
+  <string name="log_level_title">مستوى السجل</string>
+  <string name="log_level_off">إيقاف</string>
+  <string name="log_level_normal">عادي</string>
+  <string name="log_level_debug">تصحيح</string>
+  <string name="log_level_verbose">مفصّل</string>
+  <string name="log_level_unknown">*غير معروف*</string>
+  <string name="log_level_value">تم ضبط مستوى سجل Logcat على \"%1$s\"</string>
 </resources>

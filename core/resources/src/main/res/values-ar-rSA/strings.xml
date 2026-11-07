@@ -505,4 +505,263 @@
   <string name="title_unsupported_user">مستخدم غير مدعوم</string>
 
   <!-- Additional Missing Strings (Part 2) -->
+
+  <!-- Additional Missing Strings (Part 3) -->
+  <string name="cfg_installed_ndk_version">إصدار NDK المثبّت: %s</string>
+  <string name="cfg_installed_cmake_version">إصدار CMake المثبّت: %s</string>
+  <string name="ai_agent_title">وكيل الذكاء الاصطناعي</string>
+  <string name="ai_agent_description">احصل على توليد الأكواد بالذكاء الاصطناعي باستخدام وكيل الذكاء الاصطناعي</string>
+  <string name="ai_agent_prompt_hint">صِف الكود الذي تريد توليده...</string>
+  <string name="ai_agent_send">إرسال</string>
+  <string name="ai_agent_settings">الإعدادات</string>
+  <string name="ai_agent_instructions">اكتب طلبك وسيقوم الذكاء الاصطناعي بتوليد الكود لك. تأكد من ضبط مفتاح Gemini API في الإعدادات.</string>
+  <string name="ai_agent_enable">تفعيل وكيل الذكاء الاصطناعي</string>
+  <string name="ai_agent_enable_summary">تفعيل توليد الأكواد بالذكاء الاصطناعي</string>
+  <string name="ai_agent_api_key">مفتاح Gemini API</string>
+  <string name="ai_agent_api_key_summary">أدخل مفتاح Google Gemini API لاستخدام ميزات الذكاء الاصطناعي</string>
+  <string name="ai_agent_api_key_dialog_title">إدخال مفتاح Gemini API</string>
+  <string name="ai_agent_deepseek_api_key">مفتاح Deepseek API</string>
+  <string name="ai_agent_deepseek_api_key_summary">أدخل مفتاح Deepseek API لاستخدام ميزات الذكاء الاصطناعي</string>
+  <string name="ai_agent_deepseek_api_key_dialog_title">إدخال مفتاح Deepseek API</string>
+  <string name="ai_agent_openai_api_key">مفتاح OpenAI API</string>
+  <string name="ai_agent_openai_api_key_summary">أدخل مفتاح OpenAI API لاستخدام ميزات الذكاء الاصطناعي</string>
+  <string name="ai_agent_openai_api_key_dialog_title">إدخال مفتاح OpenAI API</string>
+  <string name="ai_agent_anthropic_api_key">مفتاح Anthropic API</string>
+  <string name="ai_agent_anthropic_api_key_summary">أدخل مفتاح Anthropic API لاستخدام ميزات الذكاء الاصطناعي</string>
+  <string name="ai_agent_anthropic_api_key_dialog_title">إدخال مفتاح Anthropic API</string>
+  <string name="ai_agent_grok_api_key">مفتاح Grok API</string>
+  <string name="no_acs_title">مكونات ACS مفقودة</string>
+  <string name="no_acs_summary">يبدو أن هذا التطبيق غير مكتمل أو غير رسمي، لأن نظام بناء ACS المطلوب مفقود. للحصول على كامل الوظائف، يرجى تثبيت Android Code Studio الرسمي من مصدر موثوق.</string>
+  <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+  <string name="btn_proceed_str">متابعة</string>
+  <string name="acs_install_title">نظام بناء ACS</string>
+  <string name="acs_ask_install_message">هل أنت متأكد أنك تريد تثبيت %1$s؟</string>
+  <string name="title_enable_ide_logs">تفعيل سجلات IDE</string>
+  <string name="msg_enable_ide_logs">عند التحديد سيتم تفعيل سجلات IDE</string>
+  <string name="msg_ide_logs_disabled">السجلات معطّلة. \nلإعادة تفعيلها، انتقل إلى الإعدادات -> خيارات المطور وفعّل مفتاح \"IDE logs\"</string>
+  <string name="terminal_bstab">التيرمنال</string>
+  <string name="discussions_on_qq">النقاشات على QQ</string>
+  <string name="idepref_installViaShizuku_title">التثبيت عبر Shizuku</string>
+  <string name="idepref_installViaShizuku_summary">عند التفعيل، سيجري IDE التثبيت الصامت عبر Shizuku. يرجى التأكد من تثبيت Shizuku وتفعيله.</string>
+  <string name="open_project">فتح مشروع</string>
+  <string name="search_projects_hint">البحث في المشاريع…</string>
+  <string name="no_projects_found">لا توجد مشاريع.\nأنشئ مشروعاً جديداً أو تصفّح لفتح مشروع موجود.</string>
+  <string name="no_projects_match_search">لا توجد مشاريع تطابق بحثك.</string>
+  <string name="browse_other_location">تصفّح موقعاً آخر</string>
+  <string name="recent_badge">حديث</string>
+  <string name="delete_project_title">حذف المشروع؟</string>
+  <string name="delete_project_message">هل أنت متأكد أنك تريد حذف \"%1$s\"؟\n\nسيؤدي هذا إلى حذف جميع ملفات هذا المشروع نهائياً. لا يمكن التراجع عن هذا الإجراء.</string>
+  <string name="delete">حذف</string>
+  <string name="project_deleted_success">تم حذف المشروع بنجاح</string>
+  <string name="project_delete_failed">فشل حذف المشروع</string>
+  <string name="backup_success">اكتمل النسخ الاحتياطي بنجاح</string>
+  <string name="rename_project">إعادة تسمية المشروع</string>
+  <string name="new_project_name">اسم المشروع الجديد</string>
+  <string name="rename">إعادة تسمية</string>
+  <string name="error">خطأ</string>
+  <string name="invalid_name">اسم غير صالح</string>
+  <string name="invalid_project_name_message">يجب أن يبدأ اسم المشروع بحرف وأن يحتوي على حروف وأرقام وشرطات سفلية فقط</string>
+  <string name="name_already_exists">الاسم موجود مسبقاً</string>
+  <string name="project_name_exists_message">يوجد مشروع باسم \'%1$s\' في هذا الموقع مسبقاً</string>
+  <string name="project_renamed_success">تمت إعادة تسمية المشروع بنجاح</string>
+  <string name="project_rename_failed">فشلت إعادة تسمية المشروع</string>
+  <string name="idepref_enableBuildOutput_title">تفعيل مخرجات البناء</string>
+  <string name="idepref_enableBuildOutput_summary">عرض مخرجات البناء في المحرر</string>
+  <string name="idepref_dependencies_updater_title">محدّث الاعتماديات</string>
+  <string name="idepref_dependencies_updater_summary">
+      عرض نافذة تحديث عند فتح build.gradle(.kts) تقوم بتحديث الاعتماديات المعلنة تلقائياً.
+  </string>
+  <string name="idepref_kotlin_indexing_notif_title">شريط إشعار Kotlin</string>
+  <string name="idepref_kotlin_indexing_notif_summary">
+      عرض شريط إشعار أثناء قيام خادم لغة Kotlin بفهرسة مشروع Kotlin.
+  </string>
+  <string name="include_test_str">تضمين اختبارات Android</string>
+  <string name="use_cmake">استخدام نظام بناء CMake</string>
+  <string name="native_language">اللغة الأصلية</string>
+  <string name="ndk_version_auto">NDK: تلقائي</string>
+  <string name="native_error_title">NDK مطلوب</string>
+  <string name="error_ndk_not_found_or_incompatible">لم يتم العثور على NDK مثبّت أو أنه غير متوافق. يرجى تثبيت NDK من إعدادات IDE.</string>
+  <string name="open_ide_cfg_msg">فتح الإعدادات</string>
+  <string name="choose_template">اختر قالباً</string>
+  <string name="project_configuration">إعدادات المشروع</string>
+  <string name="project_name">اسم المشروع</string>
+  <string name="project_location">موقع المشروع</string>
+  <string name="browse">تصفّح</string>
+  <string name="language">اللغة</string>
+  <string name="java">Java</string>
+  <string name="use_gradle_kotlin_dsl">استخدام Gradle Kotlin DSL (.kts)</string>
+  <string name="cancel">إلغاء</string>
+  <string name="create">إنشاء</string>
+  <string name="default_project_name">MyApplication</string>
+  <string name="default_package_name">com.example.myapplication</string>
+  <string name="back">رجوع</string>
+  <string name="template_cpp">مشروع C++</string>
+  <string name="choose_language">اختر اللغة</string>
+  <string name="new_kotlin_class">فئة Kotlin جديدة</string>
+  <string name="idepref_editor_syntax_engine_title">محرك تمييز الصيغة</string>
+  <string name="idepref_editor_syntax_engine_summary">اختر المحرك الذي يستخدمه المحرر لتمييز الصيغة</string>
+  <string name="idepref_editor_syntax_engine_tree_sitter">Tree-sitter (تزايدي)</string>
+  <string name="idepref_editor_syntax_engine_textmate">TextMate (قائم على التعابير النمطية)</string>
+  <string name="idepref_editor_autosave_title">الحفظ التلقائي</string>
+  <string name="idepref_editor_autosave_summary">يحفظ جميع التعديلات تلقائياً كل ثانيتين لمنع فقدان البيانات عند الإغلاق المفاجئ للتطبيق.</string>
+  <string name="idepref_editor_keyboard_sugg_title">إظهار اقتراحات لوحة المفاتيح</string>
+  <string name="idepref_editor_keyboard_sugg_summary">تفعيل أو تعطيل اقتراحات لوحة المفاتيح أثناء الكتابة في المحرر.</string>
+  <string name="idepref_editor_string_ext_helper_title">مستخرج النصوص</string>
+  <string name="idepref_editor_string_ext_helper_summary">يوفر قائمة سياقية لاستخراج موارد النصوص تلقائياً من الكود المصدري. يسهّل التعريب بنقل النصوص المكتوبة داخل الكود مباشرة إلى `strings.xml`. متوافق مع ملفات Kotlin وJava وXML.</string>
+  <string name="sidebar_git_title">عميل Git</string>
+  <string name="sidebar_git_settings_msg">الإعدادات</string>
+  <string name="sidebar_git_history_msg">السجل</string>
+  <string name="sidebar_git_branches_msg">الفروع</string>
+  <string name="sidebar_git_remotes_msg">المستودعات البعيدة</string>
+  <string name="sidebar_git_changes_msg">التغييرات</string>
+  <string name="msg_drawer_for_files">افتح الدرج الأيسر لعرض @@الملفات@@.</string>
+  <string name="btn_idecfg">إعدادات IDE</string>
+  <string name="servers">الخوادم</string>
+  <string name="lsp_options">بروتوكول خادم اللغة</string>
+  <string name="lsp_options_summary">ضبط الخوادم وإعدادها</string>
+  <string name="lsp_installed_title">تم التثبيت بنجاح</string>
+  <string name="lsp_installed_summary">اكتمل التثبيت بنجاح!</string>
+  <string name="project_contians_clang_title">يحتوي مشروعك على ملفات C/C++. هل تريد تثبيت خادم لغة Clang؟</string>
+  <string name="project_contians_kotlin_title">يحتوي مشروعك على ملفات Kotlin. هل تريد تثبيت خادم لغة Kotlin؟</string>
+  <string name="installing_lsp">جارٍ تثبيت خادم اللغة</string>
+  <string name="lsp_setup_str">إعداد خادم اللغة</string>
+  <string name="lsp_install_str">تثبيت</string>
+  <string name="lsp_options_kotlin_title">خادم لغة Kotlin</string>
+  <string name="lsp_options_kotlin_summary">خادم لغة Kotlin يوفر ميزات برمجة ذكية تشمل إكمال الكود وتمييز الأخطاء وغيرها</string>
+  <string name="kotlin_server_required">يجب تثبيت خادم لغة Kotlin لاستخدام هذه الميزة</string>
+  <string name="lsp_options_c_cpp_title">خادم لغة C &amp; C++</string>
+  <string name="lsp_options_c_cpp_summary">خادم لغة C وC++ يوفر ميزات تطوير ذكية مثل إكمال الكود وتمييز الأخطاء وغيرها</string>
+  <string name="acs_lsp_hover_title">معلومات الكود عند التمرير</string>
+  <string name="acs_lsp_hover_summary">عرض الأنواع وتواقيع الدوال والتوثيق عند تمرير المؤشر فوق الكود</string>
+  <string name="acs_lsp_diagnostics_title">تشخيص الكود</string>
+  <string name="acs_lsp_diagnostics_summary">عرض الأخطاء والتحذيرات أثناء الكتابة</string>
+  <string name="acs_lsp_kotlin_code_style_title">تنسيق الكود</string>
+  <string name="acs_lsp_kotlin_code_style_summary">أسلوب التنسيق المفضّل</string>
+  <string name="server_status">حالة الخادم: %s</string>
+  <string name="kotlin">Kotlin</string>
+  <string name="kotlin_lsp_category_summary">خادم لغة Kotlin وميزاته</string>
+  <string name="c_cpp">C/C++</string>
+  <string name="ccpp_lsp_category_summary">خادم لغة C/C++ وميزاته</string>
+  <string name="lsp_server_uninstall">إلغاء التثبيت</string>
+  <string name="lsp_server_uninstall_title">إلغاء تثبيت الخادم</string>
+  <string name="lsp_server_uninstall_message">هل أنت متأكد أنك تريد إلغاء تثبيت خادم %s؟ لا يمكن التراجع عن هذا الإجراء.</string>
+  <string name="lsp_server_uninstalling">جارٍ إلغاء تثبيت خادم %s</string>
+  <string name="lsp_server_please_wait">يرجى الانتظار…</string>
+  <string name="lsp_server_uninstall_success">تم إلغاء تثبيت خادم %s بنجاح!</string>
+  <string name="lsp_server_uninstall_failed">فشل إلغاء تثبيت خادم %s</string>
+  <string name="lsp_server_not_found">دليل خادم %s غير موجود</string>
+  <string name="lsp_server_uninstall_error">فشل إلغاء تثبيت %s:\n%s</string>
+  <string name="lsp_server_preparing_download">جارٍ تحضير التنزيل…</string>
+  <string name="lsp_server_downloading">جارٍ تنزيل خادم %s</string>
+  <string name="lsp_server_fetching_info">جارٍ جلب معلومات الخادم…</string>
+  <string name="lsp_server_no_download_link">رابط التنزيل غير متاح لـ %s</string>
+  <string name="lsp_server_connecting">جارٍ الاتصال بالخادم…</string>
+  <string name="lsp_server_downloading_status">جارٍ التنزيل…</string>
+  <string name="lsp_server_progress_percentage">%d%%</string>
+  <string name="lsp_server_extracting">جارٍ استخراج الملفات…</string>
+  <string name="lsp_server_install_success">تم تثبيت خادم %s بنجاح!\nتم استخراج %d ملف.</string>
+  <string name="lsp_server_download_failed">فشل تنزيل %s:\n%s</string>
+  <string name="lsp_server_error_title">فشل التنزيل</string>
+  <string name="lsp_server_success_title">اكتمل التنزيل</string>
+  <string name="extract">استخراج النص إلى strings.xml</string>
+  <string name="title_snowfall_overlay">تساقط الثلج</string>
+  <string name="msg_snowfall_overlay">طبقة متحركة لتساقط ندف الثلج، تنتهي بعد 5 يناير 2026</string>
+  <string name="updates_available">%s تحديثات للاعتماديات</string>
+  <string name="you_have_new_dependency_update">لديك تحديثات جديدة متاحة للاعتماديات.</string>
+  <string name="skip_for_1_min">تخطي لمدة دقيقة</string>
+  <string name="update_all">تحديث الكل</string>
+  <string name="warning">تحذير</string>
+  <string name="subtitle_desc">أفكارك، في أي مكان</string>
+  <string name="git_clone_branch">الفرع (اختياري)</string>
+  <string name="git_clone_options">خيارات النسخ</string>
+  <string name="git_clone_custom_options">خيارات مخصصة (مثال: --filter=blob:none)</string>
+  <string name="git_clone_invalid_url">رابط المستودع غير صالح</string>
+  <string name="title_app_logs">سجلات التطبيق</string>
+  <string name="action_hide_system_logs">إخفاء سجلات النظام</string>
+  <string name="action_show_system_logs">إظهار سجلات النظام</string>
+  <string name="action_filter_by_tag">التصفية حسب الوسم</string>
+  <string name="action_search">بحث</string>
+  <string name="action_clear">مسح</string>
+  <string name="action_apply">تطبيق</string>
+  <string name="action_clear_filter">مسح التصفية</string>
+  <string name="action_clear_search">مسح البحث</string>
+  <string name="title_filter_by_tag">التصفية حسب الوسم</string>
+  <string name="title_search_logs">البحث في السجلات</string>
+  <string name="hint_tag_filter">أدخل اسم الوسم (اتركه فارغاً لمسح التصفية)</string>
+  <string name="hint_search_logs">البحث في الوسوم والرسائل</string>
+  <string name="ai_agent_note">
+    <![CDATA[
+<b>🚨 تنبيه مهم</b>
+  <br>
+    <br>
+وكيل الذكاء الاصطناعي هذا مصمم لمساعدتك في تطوير تطبيقات Android مباشرة داخل بيئة Android Code Studio. ورغم حرصه على الدقة، يرجى العلم أن الذكاء الاصطناعي قد يولّد أحياناً كوداً به أخطاء، أو يقترح ممارسات قديمة، أو يسيء فهم المتطلبات المعقدة.<br>
+        <br>
+
+          <b>✅ للحصول على أفضل النتائج، يرجى اتباع الإرشادات التالية:</b>
+          <br>
+• 📝 <b>كن محدداً:</b> اذكر هدفك بوضوح (مثال: "أضف زراً يفتح نشاطاً جديداً").<br>
+• 🧠 <b>قدّم السياق:</b> أرفق مقاطع الكود ذات الصلة أو رسائل الأخطاء أو مخرجات logcat.<br>
+• 🚫 <b>تجنّب التحيات:</b> يرجى <u>عدم</u> بدء رسالتك بتحيات مثل "مرحبا" أو "أهلاً" أو "هاي". بل اذهب مباشرة إلى طلبك لمساعدة الذكاء الاصطناعي على الاستجابة بشكل أسرع وأدق.<br>
+• 🛠️ <b>مهم:</b> احرص دائماً على فتح ملفاتك في محرر الأكواد حتى تتمكن بسهولة من التراجع عن التغييرات إذا كانت الاستجابة سيئة أو تالفة.<br>
+• 🔄 <b>أعد ضبط السياق بعد النجاح:</b> عندما تنتهي من طلب ويكون مطابقاً لاحتياجاتك، اضغط مطولاً على زر إرسال الرسالة ونفّذ <u>إعادة ضبط كاملة للسياق</u>. يساعد ذلك على البدء من جديد ويمنع الذكاء الاصطناعي من التعلّق بالطلبات السابقة.<br>
+                      <br>
+
+⚡ راجع دائماً كل كود مُولَّد بعناية واختبره قبل بناء مشروعك.<br>
+                          <br>
+
+*<b>نصيحة:</b> اضغط مطولاً على زر إرسال الرسالة لإدارة سياق الذكاء الاصطناعي.
+]]></string>
+  <string name="restart_app_title">إعادة التشغيل مطلوبة</string>
+  <string name="restart_app_message">يحتاج التطبيق إلى إعادة التشغيل لتطبيق التغييرات. هل تريد إعادة التشغيل الآن؟</string>
+  <string name="restart_action">إعادة التشغيل</string>
+  <string name="cancel_action">إلغاء</string>
+  <string name="msg_use_ndk">إضافة قالب C++ لهذا المشروع</string>
+  <string name="title_ide_configurations">إعدادات IDE</string>
+  <string name="msg_experimental_flavor">أنت تستخدم النسخة %1$s من Android Code Studio على جهاز %2$s. قد تعمل هذه التهيئة، لكنها ستؤدي إلى انخفاض الأداء ووجود ثغرات أمنية محتملة. يرجى تجنب استخدام هذه التهيئة قدر الإمكان.</string>
+  <string name="theme_greenish">أخضر</string>
+  <string name="theme_vscode">VS Code</string>
+  <string name="idepref_general_localeSelector_summary">اختر لغة AndroidCS.</string>
+  <string name="msg_install_tools">يجب تثبيت أدوات التطوير حتى يعمل IDE. سيؤدي الضغط على زر تم إلى فتح التيرمنال لتثبيت الأدوات. للتثبيت، اتبع التعليمات <![CDATA[ <a href="https://docs.androidide.com/tutorials/get-started.html">هنا</a>.<br />
+  <br />أو اقرأ <a href="https://docs.androidide.com/">التوثيق</a>]]>.</string>
+  <string name="permission_desc_install_packages">السماح بتثبيت ملفات APK المبنية باستخدام Android Code Studio.</string>
+  <string name="onboarding_subtitle_permissions">يتطلب AndroidCS الأذونات التالية</string>
+  <string name="hint_android_ndk_version">إصدار Android NDK</string>
+  <string name="action_install_ndk">تثبيت Android NDK</string>
+  <string name="title_socials">التواصل الاجتماعي</string>
+  <string name="title_contributors">المساهمون</string>
+  <string name="summary_contributors">أبرز مساهمي المجتمع.</string>
+  <string name="title_github_contributors">مساهمو GitHub</string>
+  <string name="title_crowdin_translators">مترجمو Crowdin</string>
+  <string name="title_misc">متفرقات</string>
+  <string name="title_contribute">ساهم معنا</string>
+  <string name="summary_contribute">إنه ليس مجرد IDE، بل مجتمع. ساهم بالكود والأفكار والشغف في AndroidCS.</string>
+  <string name="msg_app_unavailable_for_intent">لا يوجد تطبيق متاح للتعامل مع هذا الطلب.</string>
+  <string name="title_open_source_licenses">تراخيص المصدر المفتوح</string>
+  <string name="summary_open_source_licenses">عرض تراخيص المصدر المفتوح.</string>
+  <string name="idepref_jdkVersion_title">إصدار JDK</string>
+  <string name="idepref_jdkVersion_summary">المحدد حالياً: %1$s (يتطلب إعادة التشغيل عند التغيير)</string>
+  <string name="lsp_update_check_failed">فشل التحقق من التحديثات: %s</string>
+  <string name="lsp_update_available_title">تحديث متاح للمكوّن</string>
+  <string name="lsp_update_available_description">يتوفر تحديث جديد لخادم لغة Kotlin الإصدار v%s</string>
+  <string name="lsp_update_button">تحديث</string>
+  <string name="lsp_download_url_unavailable">رابط التنزيل غير متاح</string>
+  <string name="lsp_downloading_title">جارٍ التنزيل</string>
+  <string name="lsp_initializing_download">جارٍ بدء التنزيل...</string>
+  <string name="lsp_downloading_progress">جارٍ التنزيل... %d%%</string>
+  <string name="lsp_download_complete_title">اكتمل التنزيل</string>
+  <string name="lsp_cleaning_old_installation">جارٍ تنظيف التثبيت القديم...</string>
+  <string name="lsp_extracting_files">جارٍ استخراج الملفات...</string>
+  <string name="lsp_extracting_progress">جارٍ استخراج الملفات... (%d ملف)</string>
+  <string name="lsp_installation_complete_title">اكتمل التثبيت</string>
+  <string name="lsp_installation_complete_description">تم تثبيت خادم لغة Kotlin الإصدار v%s بنجاح</string>
+  <string name="lsp_installation_failed_title">فشل التثبيت</string>
+  <string name="lsp_error_message">خطأ: %s</string>
+  <string name="lsp_unknown_error">خطأ غير معروف</string>
+  <string name="lsp_cancel_button">إلغاء</string>
+  <string name="lsp_update_success_title">نجح التحديث</string>
+  <string name="lsp_update_success_description">تم تثبيت خادم لغة Kotlin الإصدار v%s بنجاح</string>
+  <string name="lsp_ok_button">موافق</string>
+  <string name="lsp_installation_failed_description">فشل تثبيت التحديث: %s</string>
+  <string name="lsp_retry_button">إعادة المحاولة</string>
+
 </resources>
