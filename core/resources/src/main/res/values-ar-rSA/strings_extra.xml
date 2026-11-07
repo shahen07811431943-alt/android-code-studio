@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Additional Arabic translations for recently added Android Code Studio screens. -->
+  <string name="ai_agent_title">مساعد الذكاء الاصطناعي</string>
+  <string name="ai_agent_description">إنشاء الشيفرات البرمجية بمساعدة الذكاء الاصطناعي</string>
+  <string name="ai_agent_prompt_hint">اكتب وصفًا للشيفرة التي تريد إنشاءها…</string>
+  <string name="ai_agent_send">إرسال</string>
+  <string name="ai_agent_settings">الإعدادات</string>
+  <string name="ai_agent_instructions">أدخل طلبك وسيُنشئ المساعد الشيفرة البرمجية. تأكد من إعداد مفتاح Gemini API في الإعدادات.</string>
+  <string name="ai_agent_enable">تفعيل مساعد الذكاء الاصطناعي</string>
+  <string name="ai_agent_enable_summary">تفعيل إنشاء الشيفرات بمساعدة الذكاء الاصطناعي</string>
+  <string name="ai_agent_api_key">مفتاح Gemini API</string>
+  <string name="ai_agent_api_key_summary">أدخل مفتاح Google Gemini API لاستخدام ميزات الذكاء الاصطناعي</string>
+  <string name="ai_agent_api_key_dialog_title">أدخل مفتاح Gemini API</string>
+  <string name="ai_agent_deepseek_api_key">مفتاح DeepSeek API</string>
+  <string name="ai_agent_deepseek_api_key_summary">أدخل مفتاح DeepSeek API لاستخدام ميزات الذكاء الاصطناعي</string>
+  <string name="ai_agent_deepseek_api_key_dialog_title">أدخل مفتاح DeepSeek API</string>
+  <string name="ai_agent_openai_api_key">مفتاح OpenAI API</string>
+  <string name="ai_agent_openai_api_key_summary">أدخل مفتاح OpenAI API لاستخدام ميزات الذكاء الاصطناعي</string>
+  <string name="ai_agent_openai_api_key_dialog_title">��دخل مفتاح OpenAI API</string>
+  <string name="ai_agent_anthropic_api_key">مفتاح Anthropic API</string>
+  <string name="ai_agent_anthropic_api_key_summary">أدخل مفتاح Anthropic API لاستخدام ميزات الذكاء الاصطناعي</string>
+  <string name="ai_agent_anthropic_api_key_dialog_title">أدخل مفتاح Anthropic API</string>
+  <string name="ai_agent_grok_api_key">مفتاح Grok API</string>
+
+  <string name="open_project">فتح مشروع</string>
+  <string name="search_projects_hint">البحث عن المشاريع…</string>
+  <string name="no_projects_found">لم يُعثر على مشاريع.\nأنشئ مشروعًا جديدًا أو استعرض الملفات لفتح مشروع موجود.</string>
+  <string name="no_projects_match_search">لا توجد مشاريع تطابق بحثك.</string>
+  <string name="browse_other_location">استعراض موقع آخر</string>
+  <string name="recent_badge">حديث</string>
+  <string name="delete_project_title">حذف المشروع؟</string>
+  <string name="delete_project_message">هل أنت متأكد من حذف «%1$s»؟\n\nسيؤدي ذلك إلى حذف جميع ملفات المشروع نهائيًا. لا يمكن التراجع عن هذا الإجراء.</string>
+  <string name="project_deleted_success">تم حذف المشروع بنجاح</string>
+  <string name="project_delete_failed">تعذر حذف المشروع</string>
+  <string name="backup_success">اكتمل النسخ الاحتياطي بنجاح</string>
+  <string name="rename_project">إعادة تسمية المشروع</string>
+  <string name="new_project_name">اسم المشروع الجديد</string>
+  <string name="rename">إعادة تسمية</string>
+  <string name="invalid_name">اسم غير صالح</string>
+  <string name="invalid_project_name_message">يجب أن يبدأ اسم المشروع بحرف، وأن يحتوي على أحرف أو أرقام أو شرطة سفلية فقط</string>
+  <string name="name_already_exists">الاسم مستخدم بالفعل</string>
+  <string name="project_name_exists_message">يوجد مشروع باسم «%1$s» في هذا الموقع بالفعل</string>
+  <string name="project_renamed_success">تمت إعادة تسمية المشروع بنجاح</string>
+  <string name="project_rename_failed">تعذرت إعادة تسمية المشروع</string>
+
+  <string name="idepref_enableBuildOutput_title">إظهار مخرجات البناء</string>
+  <string name="idepref_enableBuildOutput_summary">عرض مخرجات البناء في المحرر</string>
+  <string name="idepref_dependencies_updater_title">محدّث الاعتماديات</string>
+  <string name="idepref_dependencies_updater_summary">عرض نافذة تحديث عند فتح ملفات build.gradle أو build.gradle.kts لتحديث الاعتماديات المعلنة تلقائيًا.</string>
+  <string name="idepref_kotlin_indexing_notif_title">إشعار فهرسة Kotlin</string>
+  <string name="idepref_kotlin_indexing_notif_summary">عرض إشعار أثناء فهرسة مشروع Kotlin بواسطة خادم لغة Kotlin.</string>
+  <string name="idepref_general_localeSelector_summary">اختر لغة واجهة Android Code Studio.</string>
+  <string name="title_ide_configurations">إعدادات بيئة التطوير</string>
+  <string name="title_app_logs">سجلات التطبيق</string>
+  <string name="action_hide_system_logs">إخفاء سجلات النظام</string>
+  <string name="action_show_system_logs">إظهار سجلات النظام</string>
+  <string name="action_filter_by_tag">التصفية حسب الوسم</string>
+  <string name="action_search">بحث</string>
+  <string name="action_clear">مسح</string>
+  <string name="action_apply">تطبيق</string>
+  <string name="action_clear_filter">مسح عامل التصفية</string>
+  <string name="action_clear_search">مسح البحث</string>
+  <string name="title_filter_by_tag">التصفية حسب الوسم</string>
+  <string name="title_search_logs">البحث في السجلات</string>
+  <string name="hint_tag_filter">أدخل اسم الوسم (اتركه فارغًا لإزالة التصفية)</string>
+  <string name="hint_search_logs">البحث في الوسوم والرسائل</string>
+</resources>
