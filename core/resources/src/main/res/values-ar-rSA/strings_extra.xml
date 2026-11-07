@@ -4,24 +4,20 @@
   <string name="cfg_installed_ndk_version">إصدار NDK المثبّت: %s</string>
   <string name="cfg_installed_cmake_version">إصدار CMake المثبّت: %s</string>
   <string name="no_acs_title">مكوّنات ACS غير موجودة</string>
-  <string name="no_acs_summary">يبدو أن التطبيق غير مكتمل أو غير رسمي، إذ يفتقد نظام بناء ACS المطلوب. للحصول على جميع الميزات، ثبّت Android Code Studio الرسمي من مصدر موثوق.</string>
   <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
   <string name="btn_proceed_str">متابعة</string>
   <string name="acs_install_title">نظام بناء ACS</string>
   <string name="acs_ask_install_message">هل تريد تثبيت %1$s؟</string>
   <string name="title_enable_ide_logs">تفعيل سجلات بيئة التطوير</string>
   <string name="msg_enable_ide_logs">عند التحديد، سيتم تفعيل سجلات بيئة التطوير.</string>
-  <string name="msg_ide_logs_disabled">السجلات معطّلة. لإعادة تفعيلها، انتقل إلى الإعدادات ثم خيارات المطور، وفعّل خيار «سجلات IDE».</string>
   <string name="discussions_on_qq">المناقشات على QQ</string>
   <string name="idepref_installViaShizuku_title">التثبيت عبر Shizuku</string>
-  <string name="idepref_installViaShizuku_summary">عند التفعيل، ستنفّذ بيئة التطوير التثبيت بصمت عبر Shizuku. تأكد من تثبيت Shizuku وتفعيله.</string>
 
   <string name="include_test_str">تضمين اختبارات Android</string>
   <string name="use_cmake">استخدام نظام بناء CMake</string>
   <string name="native_language">اللغة الأصلية</string>
   <string name="ndk_version_auto">NDK: تلقائي</string>
   <string name="native_error_title">يلزم تثبيت NDK</string>
-  <string name="error_ndk_not_found_or_incompatible">لم يتم العثور على تثبيت NDK أو أن الإصدار غير متوافق. ثبّت NDK من إعدادات بيئة التطوير.</string>
   <string name="open_ide_cfg_msg">فتح الإعدادات</string>
   <string name="choose_template">اختيار قالب</string>
   <string name="project_configuration">إعداد المشروع</string>
@@ -42,44 +38,15 @@
   <string name="new_kotlin_class">صف Kotlin جديد</string>
 
   <string name="idepref_editor_autosave_title">الحفظ التلقائي</string>
-  <string name="idepref_editor_autosave_summary">حفظ جميع التعديلات تلقائيًا كل ثانيتين لتجنب فقدان البيانات عند إغلاق التطبيق بشكل غير متوقع.</string>
   <string name="idepref_editor_keyboard_sugg_title">إظهار اقتراحات لوحة المفاتيح</string>
   <string name="idepref_editor_keyboard_sugg_summary">تفعيل اقتراحات لوحة المفاتيح أو تعطيلها أثناء الكتابة في المحرر.</string>
   <string name="idepref_editor_string_ext_helper_title">استخراج النصوص</string>
-  <string name="idepref_editor_string_ext_helper_summary">إتاحة استخراج النصوص من الشيفرة إلى موارد strings.xml لتسهيل ترجمة التطبيق. يدعم ملفات Kotlin وJava وXML.</string>
   <string name="idepref_editor_syntax_engine_title">محرك تمييز الصياغة</string>
   <string name="idepref_editor_syntax_engine_summary">اختر أداة تمييز الصياغة التي يستخدمها المحرر.</string>
   <string name="idepref_editor_syntax_engine_tree_sitter">Tree-sitter (تدريجي)</string>
   <string name="idepref_editor_syntax_engine_textmate">TextMate (قائم على التعبيرات النمطية)</string>
-  <string name="idepref_editor_word_wrap_title">التفاف النص</string>
-  <string name="idepref_editor_word_wrap_summary">التفاف الأسطر الطويلة داخل المحرر.</string>
-  <string name="idepref_editor_use_magnifier_title">تفعيل المكبّر</string>
-  <string name="idepref_editor_use_magnifier_summary">تكبير النص عند موضع المؤشر أثناء تحديد النص في المحرر.</string>
-  <string name="idepref_editor_fontsize_title">حجم الخط</string>
-  <string name="idepref_editor_fontsize_summary">حجم خط المحرر.</string>
-  <string name="idepref_editor_colorScheme">نظام الألوان</string>
-  <string name="idepref_editor_colorScheme_summary">اختر نظام الألوان المستخدم في المحرر.</string>
-  <string name="idepref_general_uiMode">نمط الواجهة</string>
-  <string name="idepref_general_uiMode_summary">اختر نمط واجهة بيئة التطوير.</string>
-  <string name="uiMode_light">فاتح</string>
-  <string name="uiMode_dark">داكن</string>
-  <string name="uiMode_system">اتباع إعداد النظام</string>
-  <string name="idepref_general_themeSelector_title">السمة</string>
-  <string name="idepref_general_themeSelector_summary">اختر سمة Android Code Studio (يتطلب ذلك إعادة التشغيل).</string>
   <string name="theme_greenish">أخضر</string>
   <string name="theme_vscode">VS Code</string>
-  <string name="idepref_stats_optIn_title">جمع الإحصاءات</string>
-  <string name="idepref_stats_optIn_summary">السماح بجمع بيانات التثبيت وإحصاءات الجهاز بصورة مجهولة الهوية.</string>
-  <string name="title_developer_options">خيارات المطوّر</string>
-  <string name="title_privacy">الخصوصية</string>
-  <string name="summary_anonymous_usage_stats">إحصاءات استخدام مجهولة الهوية</string>
-  <string name="title_device">الجهاز</string>
-  <string name="title_app_version">إصدار التطبيق</string>
-  <string name="title_country">البلد</string>
-  <string name="title_cpu_arch">معمارية المعالج</string>
-  <string name="title_android_version">إصدار Android</string>
-  <string name="title_preview_data">معاينة البيانات</string>
-  <string name="btn_opt_in">موافقة</string>
 
   <string name="servers">الخوادم</string>
   <string name="lsp_options">بروتوكول خادم اللغة</string>
@@ -127,12 +94,6 @@
   <string name="lsp_server_error_title">فشل التنزيل</string>
   <string name="lsp_server_success_title">اكتمل التنزيل</string>
 
-  <string name="git_clone">استنساخ</string>
-  <string name="git_clone_repo">استنساخ مستودع Git</string>
-  <string name="git_clone_repo_url">رابط المستودع</string>
-  <string name="git_clone_in_progress">جارٍ استنساخ المستودع…</string>
-  <string name="git_clone_success">تم استنساخ مستودع Git بنجاح</string>
-  <string name="git_clone_failed">تعذّر استنساخ مستودع Git</string>
   <string name="git_clone_branch">الفرع (اختياري)</string>
   <string name="git_clone_options">خيارات الاستنساخ</string>
   <string name="git_clone_custom_options">خيارات مخصصة (مثل ‎--filter=blob:none)</string>
